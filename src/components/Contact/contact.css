@@ -11,7 +11,7 @@
   background: rgba(28, 28, 28, 0.896);
   height: 100%;
   width: 100%;
-  padding: 7rem 0 6rem 0;
+  padding: 8rem 0 6rem 0;
 }
 
 .small_contact {
@@ -20,7 +20,7 @@
 }
 
 .contact_title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: white;
 }
@@ -37,7 +37,7 @@
 .left_wrap {
   background: rgba(6, 6, 6, 0.32);
   color: antiquewhite;
-  padding: 3rem;
+  padding: 3rem 5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   border-radius: 0.5rem;
@@ -62,12 +62,12 @@
 
 .top_title {
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: rgb(177, 158, 9);
 }
 
 .top_address {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 350;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .social_icon {
-  font-size: 2.2rem;
+  font-size: 3rem;
 }
 
 .social {
@@ -160,6 +160,173 @@ textarea:focus {
   color: antiquewhite;
   background: transparent;
   border-color: antiquewhite;
+}
+
+/* MEDIA QUERIES (1366px DEVICES) */
+@media screen and (max-width: 1366px) {
+  .contact {
+    text-align: center;
+    background: #343a40;
+    color: white;
+    background-image: url(../../assets/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .transparent {
+    background: rgba(28, 28, 28, 0.896);
+    height: 100%;
+    width: 100%;
+    padding: 7rem 0 6rem 0;
+  }
+  
+  .small_contact {
+    font-size: 0.9rem;
+    color: rgb(177, 158, 9);
+  }
+  
+  .contact_title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .contact_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    margin: auto;
+    padding: 3rem 0;
+    gap: 3rem;
+  }
+  
+  .left_wrap {
+    background: rgba(6, 6, 6, 0.32);
+    color: antiquewhite;
+    padding: 3rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  
+  .left_wrap:hover {
+    box-shadow: 0 14px 28px rgba(47, 47, 47, 0.896), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .big_wrap {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+  }
+  
+  .big_content {
+    text-align: left;
+  }
+  
+  .top_title {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: rgb(177, 158, 9);
+  }
+  
+  .top_address {
+    font-size: 0.8rem;
+    font-weight: 350;
+  }
+  
+  .big_icon {
+    font-size: 3.5rem;
+  }
+  
+  .social_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .social_icon {
+    font-size: 2.2rem;
+  }
+  
+  .social {
+    width: 90%;
+    border: 1px solid antiquewhite;
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    color: #343a40;
+    background: antiquewhite;
+    transition: all 500ms ease;
+  }
+  
+  .social:hover {
+    background: transparent;
+    color: antiquewhite;
+  }
+  
+  .social > h6 {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    font-weight: 500;
+  }
+  
+  .social > a {
+    font-size: 0.8rem;
+    color: #8f9294;
+  }
+  
+  .social > a:hover {
+    color: rgb(177, 158, 9);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  
+  input,
+  textarea {
+    background: antiquewhite;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #343a40;
+    resize: none;
+    outline: none;
+    transition: all 500ms ease;
+  }
+  
+  input:hover,
+  textarea:hover {
+    background: transparent;
+    border-color: antiquewhite;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: antiquewhite;
+    background: transparent;
+    color: white;
+  }
+  
+  .msg_btn {
+    padding: 1rem;
+    width: 10rem;
+    color: #343a40;
+    background: antiquewhite;
+    border: 1px solid transparent;
+    transition: all 500ms ease;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .msg_btn:hover {
+    color: antiquewhite;
+    background: transparent;
+    border-color: antiquewhite;
+  }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

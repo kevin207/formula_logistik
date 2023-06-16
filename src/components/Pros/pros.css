@@ -12,7 +12,7 @@
 }
 
 .pros_title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #343a40;
 }
@@ -27,7 +27,7 @@
 }
 
 .pro_icon {
-  font-size: 6rem;
+  font-size: 8rem;
   color: #343a40;
 }
 
@@ -42,6 +42,55 @@
   font-weight: 400;
   color: #343a40;
   font-size: 0.95rem;
+}
+
+/* MEDIA QUERIES (1366px DEVICES) */
+@media screen and (max-width: 1366px) {
+  .pros {
+    text-align: center;
+    background: antiquewhite;
+    padding: 6rem 0 7rem 0;
+    height: 100%;
+    padding: 10rem 0 11rem 0;
+  }
+
+  .small_pros {
+    font-size: 0.9rem;
+    color: rgb(177, 158, 9);
+  }
+
+  .pros_title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+
+  .pros_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    gap: 2rem;
+    padding-top: 5rem;
+  }
+
+  .pro_icon {
+    font-size: 6rem;
+    color: #343a40;
+  }
+
+  .pro_title {
+    font-weight: 600;
+    margin: 1rem 0;
+    color: rgb(177, 158, 9);
+    font-size: 1.2rem;
+  }
+
+  .pro_desc {
+    font-weight: 400;
+    color: #343a40;
+    font-size: 0.95rem;
+  }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

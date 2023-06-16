@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 8.45em 0;
+  padding: 15.5rem 0;
 }
 
 .home_wrap {
@@ -16,7 +16,7 @@
 }
 
 .home-logo {
-  width: 25rem;
+  width: 35rem;
 }
 
 /* Gear */
@@ -44,7 +44,7 @@
 }
 
 .gear_small {
-  font-size: 8rem;
+  font-size: 12rem;
   animation-name: spin;
   animation-duration: 6000ms;
   animation-iteration-count: infinite;
@@ -53,7 +53,7 @@
 }
 
 .gear_big {
-  font-size: 13rem;
+  font-size: 17rem;
   animation-name: spin;
   animation-duration: 6000ms;
   animation-iteration-count: infinite;
@@ -90,6 +90,93 @@
   border-radius: 1rem;
   margin-top: 1.5rem;
 }
+
+/* MEDIA QUERIES (1366px DEVICES) */
+@media screen and (max-width: 1366px) {
+  .home {
+    background-image: url("../../assets/home.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 8.45em 0;
+  }
+
+  .home_wrap {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+
+  .home-logo {
+    width: 25rem;
+  }
+
+  .gear_wrap {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+  }
+
+  .gear_right {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .gear_small {
+    font-size: 8rem;
+    animation-name: spin;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .gear_big {
+    font-size: 13rem;
+    animation-name: spin;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  /* Title */
+  .title_wrap {
+    margin-left: 2rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: 5rem 2rem 5rem 4rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .sub_title {
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: rgb(177, 158, 9);
+  }
+
+  .line {
+    width: 60%;
+    margin: auto;
+    color: white;
+    padding: 0.1rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+  }
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
   .home {

@@ -1,7 +1,7 @@
 .about {
   text-align: center;
   height: 100%;
-  padding: 7rem 0;
+  padding: 8rem 0;
   color: #343a40;
   background-color: antiquewhite;
 }
@@ -12,7 +12,7 @@
 }
 
 .about_title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -31,13 +31,8 @@
   flex-direction: column;
 }
 
-/* .logo-about {
-  width: 10rem;
-  margin-left: 10rem;
-} */
-
 .about_image {
-  width: 20rem;
+  width: 25rem;
   transition: all 500ms ease;
   border-radius: 0.5rem;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -55,18 +50,18 @@
 .desc_title {
   font-weight: bold;
   color: rgb(177, 158, 9);
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 .desc {
   margin-top: 1rem;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   color: #343a40;
   text-align: justify;
 }
 
 .about_btn {
-  padding: 0.8rem 1.2rem;
+  padding: 1rem 1.2rem;
   border-radius: 0.5rem;
   border: 2px solid transparent;
   background: #343a40;
@@ -80,6 +75,88 @@
   border: 2px solid rgb(157, 139, 4);
   background: transparent;
   color: rgb(177, 158, 9);
+}
+
+/* MEDIA QUERES 1366px */
+@media screen and (max-width: 1366px) {
+  .about {
+    text-align: center;
+    height: 100%;
+    padding: 7rem 0;
+    color: #343a40;
+    background-color: antiquewhite;
+  }
+
+  .small_about {
+    font-size: 0.9rem;
+    color: rgb(177, 158, 9);
+  }
+
+  .about_title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .about_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0 2rem 0;
+    gap: 2rem;
+  }
+
+  .about_left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_image {
+    width: 20rem;
+    transition: all 500ms ease;
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .about_image:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .about_right {
+    text-align: left;
+    width: 80%;
+  }
+
+  .desc_title {
+    font-weight: bold;
+    color: rgb(177, 158, 9);
+    font-size: 1.3rem;
+  }
+
+  .desc {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #343a40;
+    text-align: justify;
+  }
+
+  .about_btn {
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    border: 2px solid transparent;
+    background: #343a40;
+    color: white;
+    font-weight: bold;
+    margin-top: 2rem;
+    transition: all 500ms ease;
+  }
+
+  .about_btn:hover {
+    border: 2px solid rgb(157, 139, 4);
+    background: transparent;
+    color: rgb(177, 158, 9);
+  }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
