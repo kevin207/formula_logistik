@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/formula_logistik/static/css/main.57063605.css",
+    "main.js": "/formula_logistik/static/js/main.d5e8398c.js",
+    "static/media/1.mp4": "/formula_logistik/static/media/1.6c248bce288f563dda4e.mp4",
+    "static/media/3.mp4": "/formula_logistik/static/media/3.0ab4e1ae68057653d464.mp4",
+    "static/media/2.mp4": "/formula_logistik/static/media/2.47f39672269b5373111e.mp4",
+    "static/media/about.jpg": "/formula_logistik/static/media/about.9e249426f709a85b966a.jpg",
+    "static/media/home.jpg": "/formula_logistik/static/media/home.5deb78cfa915a9fe7cf1.jpg",
+    "static/media/contact.jpg": "/formula_logistik/static/media/contact.21e4608f05e420150d3c.jpg",
+    "static/media/3.jpg": "/formula_logistik/static/media/3.248e5b353864946e02c8.jpg",
+    "static/media/4.jpg": "/formula_logistik/static/media/4.0dd2842de7f1de5de5f3.jpg",
+    "static/media/1.jpg": "/formula_logistik/static/media/1.656b809687cefb65dfb2.jpg",
+    "static/media/2.jpg": "/formula_logistik/static/media/2.15c068ec6c3e414f6080.jpg",
+    "static/media/6.jpg": "/formula_logistik/static/media/6.74e12950e617ca42a8a1.jpg",
+    "static/media/5.jpg": "/formula_logistik/static/media/5.3b47aa0615a26ab2bd89.jpg",
+    "static/media/brand.png": "/formula_logistik/static/media/brand.a16d20a131bbc7cf4548.png",
+    "index.html": "/formula_logistik/index.html",
+    "main.57063605.css.map": "/formula_logistik/static/css/main.57063605.css.map",
+    "main.d5e8398c.js.map": "/formula_logistik/static/js/main.d5e8398c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57063605.css",
+    "static/js/main.d5e8398c.js"
+  ]
+}
