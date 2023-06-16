@@ -1,0 +1,143 @@
+.services {
+  text-align: center;
+  background: #343a40;
+  height: 100%;
+  padding: 7rem 0;
+}
+
+.small_services {
+  font-size: 0.9rem;
+  color: rgb(177, 158, 9);
+}
+
+.services_title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.service_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 90%;
+  margin: auto;
+  gap: 4rem 2rem;
+  padding-top: 3rem;
+}
+
+.service_icon {
+  font-size: 4rem;
+  color: antiquewhite;
+}
+
+.service_title {
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: rgb(177, 158, 9);
+}
+
+.service_desc {
+  color: white;
+  font-size: 0.82rem;
+  font-weight: 400;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  .services {
+    padding: 5.5rem 0;
+  }
+
+  .small_services {
+    font-size: 0.7rem;
+  }
+
+  .services_title {
+    font-size: 1.5rem;
+  }
+
+  .service_wrap {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    gap: 4rem;
+    padding-top: 4rem;
+  }
+
+  .service_icon {
+    font-size: 3.5rem;
+  }
+
+  .service_title {
+    margin: 0.4rem 0;
+    font-size: 0.9rem;
+  }
+
+  .service_desc {
+    font-size: 0.7rem;
+  }
+
+  /* Animation */
+  .css-1wr2mkb,
+  .css-8zwvxk,
+  .css-13u6vc6 {
+    animation-name: fade-right !important;
+    animation-delay: 0ms !important;
+  }
+
+  .css-x85gs2,
+  .css-xa8b7g,
+  .css-1e1k4hb {
+    animation-name: fade-left !important;
+    animation-delay: 0ms !important;
+  }
+
+  .css-gpyzgz,
+  .css-18nchjp,
+  .css-1e1k4hb,
+  .css-13u6vc6 {
+    animation-delay: 0ms !important;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .services {
+    padding: 3rem 0;
+  }
+
+  .small_services {
+    font-size: 0.6rem;
+  }
+
+  .services_title {
+    font-size: 1.3rem;
+  }
+
+  .service_wrap {
+    grid-template-columns: 1fr;
+    width: 75%;
+    gap: 3rem;
+    padding-top: 3rem;
+  }
+
+  /* Animation */
+
+  .css-gpyzgz,
+  .css-18nchjp {
+    animation-delay: 0ms !important;
+  }
+
+  .css-xa8b7g,
+  .css-x85gs2,
+  .css-1e1k4hb {
+    animation-name: fade-left !important ;
+    animation-delay: 0ms !important;
+  }
+
+  .css-1wr2mkb,
+  .css-8zwvxk,
+  .css-13u6vc6 {
+    animation-name: fade-right !important;
+    animation-delay: 0ms !important;
+  }
+}

@@ -1,0 +1,15 @@
+.footer {
+  text-align: center;
+  padding: 1.8rem;
+  color: #343a40;
+  font-size: 0.8rem;
+  background: antiquewhite;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 1.5rem;
+    font-size: 0.7rem;
+  }
+}
