@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/formula_logistik/static/css/main.50b81ea4.css",
+    "main.css": "/formula_logistik/static/css/main.e0b3978d.css",
     "main.js": "/formula_logistik/static/js/main.d5e8398c.js",
     "static/media/1.mp4": "/formula_logistik/static/media/1.6c248bce288f563dda4e.mp4",
     "static/media/3.mp4": "/formula_logistik/static/media/3.0ab4e1ae68057653d464.mp4",
@@ -16,11 +16,11 @@
     "static/media/5.jpg": "/formula_logistik/static/media/5.3b47aa0615a26ab2bd89.jpg",
     "static/media/brand.png": "/formula_logistik/static/media/brand.a16d20a131bbc7cf4548.png",
     "index.html": "/formula_logistik/index.html",
-    "main.50b81ea4.css.map": "/formula_logistik/static/css/main.50b81ea4.css.map",
+    "main.e0b3978d.css.map": "/formula_logistik/static/css/main.e0b3978d.css.map",
     "main.d5e8398c.js.map": "/formula_logistik/static/js/main.d5e8398c.js.map"
   },
   "entrypoints": [
-    "static/css/main.50b81ea4.css",
+    "static/css/main.e0b3978d.css",
     "static/js/main.d5e8398c.js"
   ]
 }
