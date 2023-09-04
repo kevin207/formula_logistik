@@ -37,7 +37,7 @@
 .left_wrap {
   background: rgba(6, 6, 6, 0.32);
   color: antiquewhite;
-  padding: 3rem 5rem;
+  padding: 5rem 4rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   border-radius: 0.5rem;
@@ -119,6 +119,10 @@ form {
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
+}
+
+textarea{
+  min-height: 260px;
 }
 
 input,
@@ -285,6 +289,10 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     gap: 0.9rem;
+  }
+
+  textarea{
+    min-height: none;
   }
   
   input,
